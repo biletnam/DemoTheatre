@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/Theatre">
+    <!--   pour Postgres
+        <Resource name="jdbc/test" 
+              auth="Container" 
+              type="javax.sql.DataSource"
+              maxActive="10" 
+              maxIdle="3" 
+              maxWait="10000"
+              username="postgres" 
+              password="postgres" 
+              driverClassName="org.postgresql.Driver"
+              url="jdbc:postgresql://localhost:5433/cafeTest"/>
+              -->
+                  <!--   pour Orgacle -->
+        <Resource name="jdbc/test" 
+              auth="Container" 
+              type="javax.sql.DataSource"
+              maxActive="10" 
+              maxIdle="3" 
+              maxWait="10000"
+              username="XXXXXX" 
+              password="XXXXXX" 
+              driverClassName="oracle.jdbc.OracleDriver"
+              url="jdbc:oracle:thin:@im2ag-oracle.e.ujf-grenoble.fr:1521:im2ag"/>
+
+</Context>
