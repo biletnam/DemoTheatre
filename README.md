@@ -16,3 +16,10 @@ projet pour que les tables créées n'interfèrent pas avec les tables de votre 
 1. exécuter ce fichier.
 
 
+Il faut ensuite remplir la table des places. Pour cela il existe un programme d'initalisation (`PlacesInitialiser` situé dans le package  `im2ag.m2pcci.theatre.util` défini dans les Test Packages) qui utilise une carte de la salle définie 
+dans un fichier texte (`carte.txt`) situé dans le répertoire `test\data`. Pour exécuter ce programme :
+
+1. Modifier le fichier `jdbc.properties` situé dans le package `im2ag.m2pcci.theatre.util` afin de mettre votre login et mot de passe BD
+1. Exécuter le programme `PlacesInitialiser`
+1. Verifier que les 620 places définies dans la carte sont bien dans la table `PLACES_VENDUES`
+
