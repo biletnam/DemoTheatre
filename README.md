@@ -10,4 +10,9 @@ les spectacles qu'il accueille et les places vendues pour ceux-ci.
 Pour vous aider à créer cette base sur la BD Oracle vous disposez d'un script de creation des tables `createTables` situé dans le répertoire 
 `src/sql`.
 
+1. dans l'onglet service de netbeans ouvrir une connexion à la base Oracle (attention, éviter d'uiliser la base de votre groupe
+projet pour que les tables créées n'interfèrent pas avec les tables de votre projet).
+1. ouvrir le fichier `createTables.sql` et choisir la connexion ouverte à l'étape précédente?
+1. exécuter ce fichier.
+
 
