@@ -13,6 +13,6 @@
     </head>
     <body>
         <h1>Merci de votre achat pour le spectacle ${spectacle.titre}</h1>
-        <p><a href="/Theatre">retour à l'accueil</a>
+        <p><a href="/DemoTheatre">retour à l'accueil</a>
     </body>
 </html>
