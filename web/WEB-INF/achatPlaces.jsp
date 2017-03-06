@@ -114,7 +114,7 @@
                             $prixTotal.text(calculerPrixTotal(sc) + this.data().price);
                             return 'selected';
                         } else if (this.status() == 'selected') {
-                            $nbPlaces.text(sc.find('selected').length + 1);
+                            $nbPlaces.text(sc.find('selected').length - 1);
                             $prixTotal.text(calculerPrixTotal(sc) - this.data().price);
                             // la place est désélectionnée
                             return 'available';
